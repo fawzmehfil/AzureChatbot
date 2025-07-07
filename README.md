@@ -25,11 +25,16 @@ This project is a fullstack chatbot application powered by React (frontend) and 
 
 These must be set in your Azure App Service Configuration Settings:
 
-| Variable Name           | Description                                     |
-|-------------------------|-------------------------------------------------|
-| OPENAI_API_KEY          | Your Azure OpenAI resource key                  |
-| AZURE_ENDPOINT          | Your Azure OpenAI endpoint (e.g. https://...)  |
-| AZURE_DEPLOYMENT_NAME   | Name of your GPT deployment model              |
+| Variable Name           | Description                                             |
+|-------------------------|---------------------------------------------------------|
+| `OPENAI_API_KEY`        | Your Azure OpenAI resource key                          |
+| `AZURE_ENDPOINT`        | Your Azure OpenAI endpoint (e.g. https://...)           |
+| `AZURE_DEPLOYMENT_NAME` | Name of your GPT deployment model                       |
+| `SQL_SERVER`            | Azure SQL Server FQDN (e.g. `chat-server.database...`)  |
+| `SQL_DATABASE`          | SQL database name (e.g. `chatdb`)                       |
+| `SQL_USERNAME`          | SQL username (e.g. `sqladmin@servername`)              |
+| `SQL_PASSWORD`          | SQL user password                                       |
+
 
 ## Setup Instructions
 
